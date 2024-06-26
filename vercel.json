@@ -1,14 +1,15 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ],
+
+   "rewrites": [
+      { "source": "/(.*)", "destination": "/index.html" }
+    ],
+
+
   "builds": [
     {
       "src": "dist/spa/index.html",
       "use": "@vercel/static"
     }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "dist/spa/index.html" }
   ]
+
 }
