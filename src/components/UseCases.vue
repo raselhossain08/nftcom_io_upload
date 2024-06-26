@@ -126,20 +126,21 @@
       <img :src="effect1" alt="effect1" />
     </div>
     <div class="container">
-        <div class="flex justify-center items-center">
-          <div class="mb-3 relative-position inline-block">
-            <input
-              type="text"
-              class="form-control"
-              name=""
-              id=""
-              aria-describedby="helpId"
-              placeholder=""
-            />
-            <button type="submit" class="submit-btn flex items-center">Request a Demo  <img :src="arrow" alt="arrow"></button>
-          </div>
-
+      <div class="flex justify-center items-center">
+        <div class="mb-3 relative-position inline-block">
+          <input
+            type="text"
+            class="form-control"
+            name=""
+            id=""
+            aria-describedby="helpId"
+            placeholder=""
+          />
+          <button type="submit" class="submit-btn flex items-center">
+            Request a Demo <img :src="arrow" alt="arrow" />
+          </button>
         </div>
+      </div>
     </div>
   </div>
 </template>
@@ -183,7 +184,7 @@ export default {
       imgIcon,
       play,
       effect1,
-      arrow
+      arrow,
     };
   },
 };
@@ -356,13 +357,13 @@ export default {
 .last-items {
   z-index: 11;
 }
-.form-control{
+.form-control {
   width: 563px;
   height: 82px;
   padding: 15px 16px 15px 30px;
-  border-radius: 50px ;
-  border: 1px solid #2B2828;
-  background: #1E1C1C;
+  border-radius: 50px;
+  border: 1px solid #2b2828;
+  background: #1e1c1c;
 }
 .submit-btn {
   margin-right: 20px;
@@ -379,12 +380,12 @@ export default {
   line-height: 30px;
   text-align: left;
   cursor: pointer;
-  position:absolute;
+  position: absolute;
   right: 5px;
   top: 0;
   transform: translateY(25%);
 }
-.submit-btn img{
+.submit-btn img {
   margin-left: 10px;
 }
 </style>

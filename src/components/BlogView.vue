@@ -30,40 +30,47 @@
           </div>
         </div>
       </div>
-        <div class="row">
-          <div v-for="(post, index) in blogPosts" :key="index" class="col-4 q-px-lg  q-py-lg">
-            <div class="blog-post  ">
-              <img :src="post.img" :alt="post.alt" class=" full-width" />
-        <div class="blog-body q-px-lg q-py-md">
-          <div class="avatar flex items-center">
-            <img :src="post.profileImg" alt="profile" class="q-pr-md" />
-            <div>
-              <h2>{{ post.title }}</h2>
-              <button type="button">{{ post.privacy }}</button>
+      <div class="row">
+        <div
+          v-for="(post, index) in blogPosts"
+          :key="index"
+          class="col-4 q-px-lg q-py-lg"
+        >
+          <div class="blog-post">
+            <img :src="post.img" :alt="post.alt" class="full-width" />
+            <div class="blog-body q-px-lg q-py-md">
+              <div class="avatar flex items-center">
+                <img :src="post.profileImg" alt="profile" class="q-pr-md" />
+                <div>
+                  <h2>{{ post.title }}</h2>
+                  <button type="button">{{ post.privacy }}</button>
+                </div>
+              </div>
+              <p class="details">
+                {{ post.description }}
+              </p>
+              <div class="flex content items-center">
+                <h3>{{ post.price }}</h3>
+                <div class="shape"></div>
+                <p class="member">{{ post.members }} Members</p>
+              </div>
             </div>
-          </div>
-          <p class="details">
-            {{ post.description }}
-          </p>
-          <div class="flex content items-center">
-            <h3>{{ post.price }}</h3>
-            <div class="shape"></div>
-            <p class="member">{{ post.members }} Members</p>
           </div>
         </div>
-            </div>
-
       </div>
-        </div>
-        <div class="pagination flex items-center justify-center q-py-lg">
-              <button type="button" class="page-btn"> <i class="fa-solid fa-angle-left"></i></button>
-              <button type="button" class="page-btn active">1</button>
-               <button type="button" class="page-btn ">2</button>
-               <button type="button" class="page-btn">..</button>
-               <button type="button" class="page-btn">9</button>
-               <button type="button" class="page-btn">10</button>
-              <button type="button" class="page-btn"> <i class="fa-solid fa-angle-right"></i></button>
-        </div>
+      <div class="pagination flex items-center justify-center q-py-lg">
+        <button type="button" class="page-btn">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <button type="button" class="page-btn active">1</button>
+        <button type="button" class="page-btn">2</button>
+        <button type="button" class="page-btn">..</button>
+        <button type="button" class="page-btn">9</button>
+        <button type="button" class="page-btn">10</button>
+        <button type="button" class="page-btn">
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -87,7 +94,8 @@ export default {
           profileImg: profile,
           title: "Anime Shreds",
           privacy: "Private",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
           price: "$22/month",
           members: "25.5k",
         },
@@ -97,7 +105,8 @@ export default {
           profileImg: profile,
           title: "Anime Shreds",
           privacy: "Private",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
           price: "$22/month",
           members: "25.5k",
         },
@@ -107,7 +116,8 @@ export default {
           profileImg: profile,
           title: "Anime Shreds",
           privacy: "Private",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
           price: "$22/month",
           members: "25.5k",
         },
@@ -117,7 +127,8 @@ export default {
           profileImg: profile,
           title: "Anime Shreds",
           privacy: "Private",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
           price: "$22/month",
           members: "25.5k",
         },
@@ -127,7 +138,8 @@ export default {
           profileImg: profile,
           title: "Anime Shreds",
           privacy: "Private",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
           price: "$22/month",
           members: "25.5k",
         },
@@ -137,7 +149,8 @@ export default {
           profileImg: profile,
           title: "Anime Shreds",
           privacy: "Private",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
           price: "$22/month",
           members: "25.5k",
         },
@@ -188,7 +201,7 @@ export default {
   );
   border-radius: 50px;
 }
-.blog-post{
+.blog-post {
   cursor: pointer;
 }
 .use-case h1 {
@@ -251,19 +264,19 @@ export default {
   border: 1px solid #1e1c1c;
   border-radius: 0 0 20px 20px;
 }
-.avatar h2{
-color: #FFFFFF;
-font-family: "Urbanist",sans-serif;
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-text-align: left;
-padding-bottom: 8px;
+.avatar h2 {
+  color: #ffffff;
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  padding-bottom: 8px;
 }
-.avatar button{
-  background: #21E29D1A;
-  color: #21E29D;
-  font-family: "Inter",sans-serif;
+.avatar button {
+  background: #21e29d1a;
+  color: #21e29d;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 23.38px;
@@ -272,60 +285,60 @@ padding-bottom: 8px;
   border-radius: 5px;
 }
 
-.details{
-  font-family: "Inter",sans-serif;
+.details {
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26.72px;
   text-align: left;
-  color:#EAE8E8;
+  color: #eae8e8;
   padding: 10px 0;
 }
-h3{
-  font-family: "Urbanist",sans-serif;
+h3 {
+  font-family: "Urbanist", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.shape{
+.shape {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #2E2B2B;
-  margin:0 10px ;
+  background: #2e2b2b;
+  margin: 0 10px;
 }
-.member{
-  font-family: "Inter",sans-serif;
+.member {
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26.72px;
   text-align: left;
-  color: #EAE8E8;
+  color: #eae8e8;
   margin: 0;
 }
-.page-btn{
+.page-btn {
   width: 48.71px;
   height: 48.71px;
   border-radius: 152px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #1E1C1C;
-  color: #FFFFFF;
+  background: #1e1c1c;
+  color: #ffffff;
   border: 0.99px solid #171616;
   margin: 0 15px;
-  font-family: "Urbanist",sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 18.25px;
   font-weight: 700;
   line-height: 21.9px;
   text-align: center;
   cursor: pointer;
 }
- .active{
-  background: linear-gradient(120.12deg, #FDE9A3 -3.95%, #EECB4E 101.99%);
-  color:#171616;
+.active {
+  background: linear-gradient(120.12deg, #fde9a3 -3.95%, #eecb4e 101.99%);
+  color: #171616;
 }
 </style>

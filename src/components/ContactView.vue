@@ -70,7 +70,7 @@
                     placeholder="Optional message (message)"
                   ></textarea>
                 </div>
-                <div class=" full-width flex justify-end">
+                <div class="full-width flex justify-end">
                   <button type="button" class="price-btn2">
                     Request demo <img :src="arrowIcon" alt="arrowIcon" />
                   </button>
@@ -99,7 +99,7 @@ export default {
       desktop,
       mobile,
       flag,
-      arrowIcon
+      arrowIcon,
     };
   },
   methods: {},
@@ -184,23 +184,23 @@ export default {
   padding: 15px 16px 15px 30px;
   border-radius: 50px;
   border: none;
-  font-family: "Urbanist",sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.2px;
   text-align: left;
   color: #868383;
 }
-.contact-area .form-control{
-  font-family: "Urbanist",sans-serif;
+.contact-area .form-control {
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.2px;
   text-align: left;
   color: #868383;
 }
-.contact-area .form-control::placeholder{
-  font-family: "Urbanist",sans-serif;
+.contact-area .form-control::placeholder {
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.2px;
@@ -220,9 +220,9 @@ export default {
 #phone {
   padding-left: 106px;
 }
-textarea{
-  height:241px;
-  box-shadow: 0px 4px 100px 0px #0000000D;
+textarea {
+  height: 241px;
+  box-shadow: 0px 4px 100px 0px #0000000d;
   background: #171616;
   width: 100%;
   border: none;

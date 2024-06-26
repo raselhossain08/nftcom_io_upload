@@ -2,7 +2,7 @@
   <div class="relative-position footer">
     <div class="container">
       <div class="divider"></div>
-      <div class="row ">
+      <div class="row">
         <div class="col-4">
           <div class="footer-1 q-pr-xl">
             <img :src="logo" alt="logo" />
@@ -72,19 +72,16 @@
                 <a href="">
                   <i class="fa-brands fa-instagram"></i>
                 </a>
-
               </div>
               <div class="icon-box q-ml-lg">
                 <a href="">
                   <i class="fa-brands fa-twitter"></i>
                 </a>
-
               </div>
               <div class="icon-box q-ml-lg">
                 <a href="">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
-
               </div>
             </div>
             <div class="credit">
@@ -95,11 +92,11 @@
       </div>
     </div>
     <div class="effects1">
-            <img :src="effect1" alt="effect1">
-        </div>
-        <div class="effects2">
-            <img :src="effect2" alt="effect2">
-        </div>
+      <img :src="effect1" alt="effect1" />
+    </div>
+    <div class="effects2">
+      <img :src="effect2" alt="effect2" />
+    </div>
   </div>
 </template>
 
@@ -132,13 +129,13 @@ export default {
 </script>
 
 <style>
-.footer{
+.footer {
   padding-bottom: 100px;
 }
-.divider{
+.divider {
   width: 100%;
   height: 1px;
-  background: #FFFFFF0D;
+  background: #ffffff0d;
   margin: 80px 0;
 }
 .icon-box {
@@ -150,17 +147,17 @@ export default {
   align-items: center;
   justify-content: center;
 }
-.subscribe a{
+.subscribe a {
   font-size: 18px;
   color: #fff;
 }
-.credit p{
-  font-family: "Inter",sans-serif;
+.credit p {
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30.06px;
   text-align: left;
-  color: #D1D1D1;
+  color: #d1d1d1;
 }
 .submit-btn {
   margin-right: 20px;
@@ -175,67 +172,67 @@ export default {
   line-height: 30px;
   text-align: left;
   cursor: pointer;
-  position:absolute;
+  position: absolute;
   right: -12px;
   top: 2px;
   padding: 8px 20px;
 }
 input {
-  background: #1E1C1C;
+  background: #1e1c1c;
   box-shadow: 0px 4px 100px 0px #0000000d;
   width: 100%;
   height: 50px;
   padding: 15px 16px 15px 30px;
   border-radius: 50px;
   border: none;
-  font-family: "Urbanist",sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.2px;
   text-align: left;
   color: #868383;
 }
-.footer-1  p{
-  font-family: "Inter",sans-serif;
+.footer-1 p {
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30.06px;
   text-align: left;
-  color: #D1D1D1;
+  color: #d1d1d1;
   padding-top: 10px;
 }
-.footer-1  h4{
-  font-family: "Inter",sans-serif;
+.footer-1 h4 {
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30.06px;
   text-align: left;
-  color: #D1D1D1;
+  color: #d1d1d1;
 }
-.title{
-  font-family: "Urbanist",sans-serif;
+.title {
+  font-family: "Urbanist", sans-serif;
   font-size: 25px;
   font-weight: 600;
   line-height: 30px;
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-bottom: 15px;
 }
-ul{
-  list-style:none;
+ul {
+  list-style: none;
   padding: 0;
 }
-li{
+li {
   padding: 5px 0;
 }
-li a{
-font-family: "Inter",sans-serif;
-font-size: 18px;
-font-weight: 400;
-line-height: 30.06px;
-text-align: left;
-color: #D1D1D1;
-text-decoration: none;
+li a {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.06px;
+  text-align: left;
+  color: #d1d1d1;
+  text-decoration: none;
 }
 .effects1 {
   position: absolute;
@@ -247,7 +244,7 @@ text-decoration: none;
   top: -20px;
   right: 0;
 }
-.effects1 img{
+.effects1 img {
   height: 400px;
 }
 </style>

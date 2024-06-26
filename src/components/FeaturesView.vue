@@ -6,24 +6,34 @@
           <button type="button" class="use-case-btn">Features</button>
           <h1>Manage a strong community</h1>
           <p>
-            Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. <br>  Lörem ipsum prende bloggare jung far.
+            Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap,
+            borat. <br />
+            Lörem ipsum prende bloggare jung far.
           </p>
         </div>
-        <div class=" q-py-xl">
+        <div class="q-py-xl">
           <div class="row justify-center">
-            <div v-for="(feature, index) in features" :key="index" class="col-3 q-px-md q-py-lg">
-                <div class="feature-box" v-if="feature.fullPic!==true">
-                  <div class="feature-box-img">
-                    <img :src="feature.img" alt="">
-                    <h1>{{ feature.title }}</h1>
-                    <p>{{ feature.description }}</p>
-                  </div>
+            <div
+              v-for="(feature, index) in features"
+              :key="index"
+              class="col-3 q-px-md q-py-lg"
+            >
+              <div class="feature-box" v-if="feature.fullPic !== true">
+                <div class="feature-box-img">
+                  <img :src="feature.img" alt="" />
+                  <h1>{{ feature.title }}</h1>
+                  <p>{{ feature.description }}</p>
                 </div>
-                <div class="feature-box" v-if="feature.fullPic===true" style="padding:0">
-                  <div class="feature-box-img ">
-                    <img :src="feature.img" alt="">
-                  </div>
+              </div>
+              <div
+                class="feature-box"
+                v-if="feature.fullPic === true"
+                style="padding: 0"
+              >
+                <div class="feature-box-img">
+                  <img :src="feature.img" alt="" />
                 </div>
+              </div>
             </div>
           </div>
         </div>
@@ -57,80 +67,94 @@ export default {
         {
           img: feature1,
           title: "Monetization",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature2,
           title: "Community",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature3,
           title: "Classroom",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature4,
           title: "Gamification",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature5,
           title: "Gamification",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature6,
           title: "Gamification",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature7,
-          fullPic:true
+          fullPic: true,
         },
         {
           img: feature8,
           title: "Gamification",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature9,
           title: "Gamification",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature10,
           title: "Gamification",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature11,
           title: "Gamification",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature12,
           title: "Gamification",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature13,
           title: "Gamification",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature14,
           title: "Gamification",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
         {
           img: feature15,
           title: "Gamification",
-          description: "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far."
+          description:
+            "Lörem ipsum prende bloggare jung far. Salig. Reatuna speluskap, borat. Lörem ipsum prende bloggare jung far.",
         },
-      ]
+      ],
     };
-  }
+  },
 };
 </script>
 
@@ -191,27 +215,27 @@ export default {
   text-align: center;
   color: #ffffff;
 }
-.feature-box{
+.feature-box {
   background: linear-gradient(180deg, #262323 0%, #181716 100%);
   border-radius: 25px;
   padding: 30px;
 }
-.feature-box h1{
+.feature-box h1 {
   padding: 15px 0;
-  font-family: "Urbanist",sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 30px;
   font-weight: 600;
   line-height: 36px;
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.feature-box p{
-  font-family: "Inter",sans-serif;
+.feature-box p {
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30.06px;
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
   word-break: break-all;
 }
 </style>

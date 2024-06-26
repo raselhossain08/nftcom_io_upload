@@ -4,10 +4,10 @@
     <BannerView />
     <UseCases />
     <FeaturesView />
-    <PricingView/>
-    <ContactView/>
-    <BlogView/>
-    <FooterView/>
+    <PricingView />
+    <ContactView />
+    <BlogView />
+    <FooterView />
   </div>
 </template>
 

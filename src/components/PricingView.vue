@@ -193,9 +193,8 @@ export default {
   line-height: 30px;
   text-align: left;
   cursor: pointer;
-
 }
-.price-btn2 img{
+.price-btn2 img {
   padding-left: 10px;
 }
 .price-button {
@@ -239,8 +238,8 @@ export default {
   text-align: center;
   color: #ffffff;
 }
-.pricing-table del{
-  color: #8E8989;
+.pricing-table del {
+  color: #8e8989;
 }
 .pricing-table h2 {
   font-family: "Urbanist", sans-serif;
