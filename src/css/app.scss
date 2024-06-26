@@ -1,0 +1,35 @@
+// app global css in SCSS form
+* {
+  margin: 0;
+}
+button {
+  border: none;
+}
+/* Default styles */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px; /* Adjust padding as needed */
+  box-sizing: border-box;
+}
+
+/* Media query for tablets and smaller desktops */
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px; /* Adjust maximum width as needed */
+  }
+}
+
+/* Media query for desktops */
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px; /* Adjust maximum width as needed */
+  }
+}
+
+/* Media query for large desktops and widescreens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1242px; /* Adjust maximum width as needed */
+  }
+}
