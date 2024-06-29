@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <div class="features q-pt-xl">
+  <div
+    :class="{ 'dark-mode': $q.dark.isActive, 'light-mode': !$q.dark.isActive }"
+  >
+    <div class="features feature-area q-pt-xl">
       <div class="container">
         <div class="use-case flex items-center justify-center q-pt-xl">
           <button type="button" class="use-case-btn">Features</button>
@@ -16,7 +18,7 @@
             <div
               v-for="(feature, index) in features"
               :key="index"
-              class="col-3 q-px-md q-py-lg"
+              class="col-3 q-px-md q-py-lg custom-col"
             >
               <div class="feature-box" v-if="feature.fullPic !== true">
                 <div class="feature-box-img">
@@ -58,7 +60,9 @@ import feature12 from "assets/feature/12.png";
 import feature13 from "assets/feature/13.png";
 import feature14 from "assets/feature/14.png";
 import feature15 from "assets/feature/15.png";
-
+import "../css/Features.scss";
+import { useQuasar } from "quasar";
+const $q = useQuasar();
 export default {
   components: {},
   data() {
@@ -157,85 +161,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.use-case {
-  flex-direction: column;
-}
-.use-case button {
-  position: relative;
-  font-family: "Urbanist", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21.6px;
-  text-align: center;
-  padding: 12px 25px;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(120.12deg, #fde9a3 -3.95%, #eecb4e 101.99%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  font-size: 2em; /* Adjust as needed */
-  font-weight: bold; /* Adjust as needed */
-
-  z-index: 11;
-}
-.use-case button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    120.12deg,
-    rgba(253, 233, 163, 0.1) -3.95%,
-    rgba(238, 203, 78, 0.1) 101.99%
-  );
-  border-radius: 50px;
-}
-.use-case h1 {
-  font-family: "Urbanist", sans-serif;
-  font-size: 50px;
-  font-weight: 600;
-  line-height: 60px;
-  text-align: center;
-  color: #ffffff;
-  padding: 20px 0;
-}
-.use-case p {
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30.06px;
-  text-align: center;
-  color: #ffffff;
-}
-.feature-box {
-  background: linear-gradient(180deg, #262323 0%, #181716 100%);
-  border-radius: 25px;
-  padding: 30px;
-}
-.feature-box h1 {
-  padding: 15px 0;
-  font-family: "Urbanist", sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 36px;
-  text-align: left;
-  color: #ffffff;
-}
-.feature-box p {
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30.06px;
-  text-align: left;
-  color: #ffffff;
-  word-break: break-all;
-}
-</style>

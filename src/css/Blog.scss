@@ -1,0 +1,453 @@
+.light-mode {
+  .blog-area {
+    .use-case {
+      flex-direction: column;
+    }
+    .use-case button {
+      position: relative;
+      font-family: "Urbanist", sans-serif;
+      font-size: 18px !important;
+      font-weight: 700;
+      line-height: 21.6px;
+      text-align: center;
+      padding: 12px 25px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(120.12deg, #fde9a3 -3.95%, #eecb4e 101.99%);
+      -webkit-text-fill-color: #000;
+      font-size: 2em; /* Adjust as needed */
+      font-weight: bold; /* Adjust as needed */
+
+      z-index: 11;
+    }
+    .use-case button::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        120.12deg,
+        rgba(253, 233, 163, 0.1) -3.95%,
+        rgba(238, 203, 78, 0.1) 101.99%
+      );
+      border-radius: 50px;
+    }
+    .blog-post {
+      cursor: pointer;
+    }
+    .use-case h1 {
+      font-family: "Urbanist", sans-serif;
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 60px;
+      text-align: center;
+      color: #000000;
+      padding: 20px 0;
+    }
+    .use-case p {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.06px;
+      text-align: center;
+      color: #595959;
+    }
+
+    .form-control {
+      width: 688px;
+      height: 61px;
+      padding: 18px 447px 16px 16px;
+      border-radius: 50px;
+      background: #e6e6e6;
+      padding-left: 50px;
+      font-family: "Urbanist", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.2px;
+      text-align: left;
+      color: var(--text-custom6);
+      border: none;
+    }
+    input::placeholder {
+      font-family: "Urbanist", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.2px;
+      text-align: left;
+      color: var(--text-custom6);
+    }
+    .search {
+      left: 0;
+      top: 0;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      padding: 0 20px;
+    }
+    .fa-magnifying-glass {
+      color: var(--text-custom6);
+      font-size: 18px;
+    }
+
+    .blog-post {
+      background: #ffffff;
+      border: 1px solid #e6e6e6;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0px 4px 100px 0px #0000000d;
+      overflow: hidden;
+      border-radius: 20px;
+    }
+    .avatar h2 {
+      color: #000000;
+      font-family: "Urbanist", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+      padding-bottom: 8px;
+    }
+    .avatar button {
+      background: var(--bg-custom8);
+      color: var(--bg-custom9);
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 23.38px;
+      text-align: center;
+      padding: 5px 15px;
+      border-radius: 5px;
+    }
+
+    .details {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26.72px;
+      text-align: left;
+      color: #595959;
+      padding: 10px 0;
+    }
+    h3 {
+      font-family: "Urbanist", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+      text-decoration: none;
+      color: #000000;
+    }
+    .shape {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--text-custom4);
+      margin: 0 10px;
+    }
+    .member {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26.72px;
+      text-align: left;
+      color: #595959;
+      margin: 0;
+    }
+    .page-btn {
+      width: 48.71px;
+      height: 48.71px;
+      border-radius: 152px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      color: #000;
+      border: 1px solid #e6e6e6;
+      margin: 0 8px;
+      font-family: "Urbanist", sans-serif;
+      font-size: 18.25px;
+      font-weight: 700;
+      line-height: 21.9px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .active {
+      background: linear-gradient(120.12deg, #fde9a3 -3.95%, #eecb4e 101.99%);
+      color: var(--bg-custom7);
+    }
+  }
+}
+.dark-mode {
+  .blog-area {
+    .use-case {
+      flex-direction: column;
+    }
+
+    .use-case button {
+      position: relative;
+      font-family: "Urbanist", sans-serif;
+      font-size: 18px !important;
+      font-weight: 700;
+      line-height: 21.6px;
+      text-align: center;
+      padding: 12px 25px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(120.12deg, #fde9a3 -3.95%, #eecb4e 101.99%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      font-size: 2em; /* Adjust as needed */
+      font-weight: bold; /* Adjust as needed */
+
+      z-index: 11;
+    }
+    .use-case button::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        120.12deg,
+        rgba(253, 233, 163, 0.1) -3.95%,
+        rgba(238, 203, 78, 0.1) 101.99%
+      );
+      border-radius: 50px;
+    }
+    .blog-post {
+      cursor: pointer;
+    }
+    .use-case h1 {
+      font-family: "Urbanist", sans-serif;
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 60px;
+      text-align: center;
+      color: var(--white-color);
+      padding: 20px 0;
+    }
+    .use-case p {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.06px;
+      text-align: center;
+      color: var(--white-color);
+    }
+
+    .form-control {
+      width: 688px;
+      height: 61px;
+      padding: 18px 447px 16px 16px;
+      border-radius: 50px;
+      background: var(--bg-custom2);
+      padding-left: 50px;
+      font-family: "Urbanist", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.2px;
+      text-align: left;
+      color: var(--text-custom6);
+      border: none;
+    }
+    input::placeholder {
+      font-family: "Urbanist", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.2px;
+      text-align: left;
+      color: var(--text-custom6);
+    }
+    .search {
+      left: 0;
+      top: 0;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      padding: 0 20px;
+    }
+    .fa-magnifying-glass {
+      color: var(--text-custom6);
+      font-size: 18px;
+    }
+
+    .blog-post {
+      background: var(--bg-custom2);
+      border: 1px solid var(--bg-custom2);
+      border-radius: 0 0 20px 20px;
+    }
+    .avatar h2 {
+      color: var(--white-color);
+      font-family: "Urbanist", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+      padding-bottom: 8px;
+    }
+    .avatar button {
+      background: var(--bg-custom8);
+      color: var(--bg-custom9);
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 23.38px;
+      text-align: center;
+      padding: 5px 15px;
+      border-radius: 5px;
+    }
+
+    .details {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26.72px;
+      text-align: left;
+      color: var(--text-custom2);
+      padding: 10px 0;
+    }
+    h3 {
+      font-family: "Urbanist", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+      text-decoration: none;
+      color: var(--white-color);
+    }
+    .shape {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #2e2b2b;
+      margin: 0 10px;
+    }
+    .member {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26.72px;
+      text-align: left;
+      color: var(--text-custom2);
+      margin: 0;
+    }
+    .page-btn {
+      width: 48.71px;
+      height: 48.71px;
+      border-radius: 152px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg-custom2);
+      color: var(--white-color);
+      border: 0.99px solid var(--bg-custom7);
+      margin: 0 10px;
+      font-family: "Urbanist", sans-serif;
+      font-size: 18.25px;
+      font-weight: 700;
+      line-height: 21.9px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .active {
+      background: linear-gradient(120.12deg, #fde9a3 -3.95%, #eecb4e 101.99%);
+      color: var(--bg-custom7);
+    }
+  }
+  .use-case h1 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    color: var(--white-color);
+    padding: 20px 0;
+  }
+  .use-case p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.06px;
+    text-align: center;
+    color: var(--white-color);
+  }
+}
+.mobile-pagi {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .blog-area {
+    .use-case {
+      h1 {
+        br {
+          display: none;
+        }
+      }
+    }
+    .search-input {
+      width: 100% !important;
+    }
+  }
+  .blog-search {
+    padding: 0 !important;
+  }
+
+  .blog-search {
+    input {
+      width: 60% !important;
+    }
+  }
+  .desktop-pagi {
+    display: none;
+  }
+  .mobile-pagi {
+    display: flex;
+  }
+  .dark-mode {
+    .active {
+      background: #1e1c1c !important;
+      color: #fff !important;
+    }
+  }
+  .pages {
+    background: transparent !important;
+    padding: 10px 20px !important;
+    border: none !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blog-area {
+    .use-case-btn {
+      font-size: 18px !important;
+    }
+    .use-case {
+      h1 {
+        font-size: 35px !important;
+        line-height: 37px !important;
+        text-align: center !important;
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
+      }
+      p {
+        line-height: 30px !important;
+        font-size: 16px !important;
+        text-align: center !important;
+      }
+    }
+    .form-control {
+      width: 100% !important;
+      padding: 10px 25px !important;
+      padding-left: 50px !important;
+    }
+  }
+}

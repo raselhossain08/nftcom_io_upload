@@ -1,8 +1,9 @@
 // src/router/routes.js
+import HomeView from "pages/HomeView.vue";
 const routes = [
   {
-    path: "/",
-    component: () => import("pages/HomeView.vue"),
+    path: "",
+    component: HomeView,
   },
 ];
 

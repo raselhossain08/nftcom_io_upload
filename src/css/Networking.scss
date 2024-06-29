@@ -1,0 +1,614 @@
+.light-mode {
+  .networking-area {
+    position: relative;
+    z-index: 444;
+    .z-index {
+      position: relative;
+      z-index: 44;
+    }
+    .networking {
+      background: var(--white-color);
+      box-shadow: 0px 4px 100px 0px #0000000d;
+      border-radius: 50px;
+      height: 458px;
+      padding: 50px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .img-list {
+      width: 100%;
+      overflow-x: hidden;
+      flex-wrap: nowrap;
+    }
+    .img-list::-webkit-scrollbar {
+      display: none;
+    }
+    .img-list img {
+      width: 87px;
+      height: 87px;
+      display: block;
+      margin-right: 15px;
+    }
+    .content {
+      padding: 0 50px;
+    }
+    .content h1 {
+      font-family: "Urbanist", sans-serif;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 48px;
+      text-align: left;
+      color: var(--black-color);
+      padding-bottom: 10px;
+    }
+    .content p {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.06px;
+      text-align: left;
+      color: var(--light1);
+      word-break: break-all;
+    }
+    .courseShape1 {
+      position: absolute;
+      bottom: 37px;
+      left: -74px;
+    }
+    .courseShape2 {
+      position: absolute;
+      bottom: -70px;
+      left: 25px;
+    }
+    .courseShapeTxt1 {
+      position: absolute;
+      font-family: Urbanist;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      text-align: left;
+      color: var(--white-color);
+      left: 252px;
+      bottom: 152px;
+      transform: rotate(348deg);
+    }
+    .courseShapeTxt2 {
+      position: absolute;
+      font-family: Urbanist;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      text-align: left;
+      color: var(--white-color);
+      left: 345px;
+      bottom: 38px;
+      transform: rotate(348deg);
+    }
+    .courseShape3 {
+      position: absolute;
+      top: -15px;
+      left: 51px;
+    }
+    .courseShape4 {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    .network2 {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+    }
+    .courseShape5 {
+      position: absolute;
+      bottom: -103px;
+      width: auto;
+    }
+    .courseShape6 {
+      position: absolute;
+      bottom: -95px;
+      left: 85px;
+      width: 100%;
+    }
+    .courseShape7 {
+      position: absolute;
+      bottom: -114px;
+      left: 112px;
+      width: 100%;
+    }
+    .networking7 {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      font-family: Urbanist;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 30px;
+      text-align: left;
+      color: var(--black-color);
+      box-shadow: 0px 4.48px 111.92px 0px #00000026;
+      border: 1px solid #e6e6e6;
+      background: #ffffff;
+      border-radius: 55.96px;
+      cursor: pointer;
+    }
+    .btn img {
+      margin-right: 10px;
+    }
+    .btn-message {
+      position: absolute;
+      bottom: 147px;
+      left: 38px;
+      transform: rotate(350deg);
+    }
+    .btn-img {
+      position: absolute;
+      bottom: 105px;
+      right: 20px;
+      transform: rotate(343deg);
+    }
+    .btn-videos {
+      position: absolute;
+      bottom: 22px;
+      left: 54px;
+      transform: rotate(37deg);
+    }
+
+    .course {
+      padding-left: 50px;
+    }
+    .memberships {
+      padding-right: 50px;
+    }
+
+    .exclusive {
+      padding-left: 50px;
+    }
+
+    .effects1 {
+      position: absolute;
+      right: 0;
+      bottom: -192px;
+      filter: blur(100px);
+    }
+    .last-items {
+      z-index: 11;
+    }
+    .form-control {
+      width: 563px;
+      height: 82px;
+      padding: 15px 16px 15px 30px;
+      border-radius: 50px;
+      border: 1px solid #e6e6e6;
+      background: white;
+      font-family: "Urbanist", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+    }
+    .submit-btn {
+      margin-right: 20px;
+      background: linear-gradient(120.12deg, #fde9a3 -3.95%, #eecb4e 101.99%);
+      width: 294.94px;
+      height: 60px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Urbanist", sans-serif;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 30px;
+      text-align: left;
+      cursor: pointer;
+    }
+    .submit-box {
+      position: absolute;
+      right: 0;
+      width: auto;
+      top: 0;
+    }
+    .submit-btn img {
+      margin-left: 10px;
+    }
+    .effect2 {
+      position: absolute;
+      bottom: 0;
+      right: 80px;
+      filter: blur(100px);
+    }
+  }
+}
+.dark-mode {
+  .networking-area {
+    position: relative;
+    z-index: 444;
+    .z-index {
+      position: relative;
+      z-index: 44;
+    }
+    .networking {
+      background: var(--bg-custom2);
+      box-shadow: 0px 4px 100px 0px #0000000d;
+      border-radius: 50px;
+      height: 458px;
+      padding: 50px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .course {
+      .networking {
+        background: linear-gradient(
+          180deg,
+          #262323 0%,
+          #181716 100%
+        ) !important;
+      }
+    }
+    .build-list {
+      .networking {
+        background: linear-gradient(
+          180deg,
+          #262323 0%,
+          #181716 100%
+        ) !important;
+      }
+    }
+    .img-list {
+      width: 100%;
+      overflow-x: hidden;
+      flex-wrap: nowrap;
+    }
+    .img-list::-webkit-scrollbar {
+      display: none;
+    }
+    .course {
+      padding-left: 50px;
+    }
+    .memberships {
+      padding-right: 50px;
+    }
+
+    .exclusive {
+      padding-left: 50px;
+    }
+
+    .img-list img {
+      width: 87px;
+      height: 87px;
+      display: block;
+      margin-right: 15px;
+    }
+    .content {
+      padding: 0 50px;
+    }
+    .content h1 {
+      font-family: "Urbanist", sans-serif;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 48px;
+      text-align: left;
+      color: var(--white-color);
+      padding-bottom: 10px;
+    }
+    .content p {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.06px;
+      text-align: left;
+      color: var(--text-custom3);
+      word-break: break-all;
+    }
+    .courseShape1 {
+      position: absolute;
+      bottom: 37px;
+      left: -74px;
+    }
+    .courseShape2 {
+      position: absolute;
+      bottom: -70px;
+      left: 25px;
+    }
+    .courseShapeTxt1 {
+      position: absolute;
+      font-family: Urbanist;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      text-align: left;
+      color: var(--white-color);
+      left: 252px;
+      bottom: 152px;
+      transform: rotate(348deg);
+    }
+    .courseShapeTxt2 {
+      position: absolute;
+      font-family: Urbanist;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      text-align: left;
+      color: var(--white-color);
+      left: 345px;
+      bottom: 38px;
+      transform: rotate(348deg);
+    }
+    .courseShape3 {
+      position: absolute;
+      top: -15px;
+      left: 51px;
+    }
+    .courseShape4 {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    .network2 {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+    }
+    .courseShape5 {
+      position: absolute;
+      bottom: -103px;
+      width: auto;
+    }
+    .courseShape6 {
+      position: absolute;
+      bottom: -95px;
+      left: 85px;
+      width: 100%;
+    }
+    .courseShape7 {
+      position: absolute;
+      bottom: -114px;
+      left: 112px;
+      width: 100%;
+    }
+    .networking7 {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      font-family: Urbanist;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 30px;
+      text-align: left;
+      color: var(--white-color);
+      box-shadow: 0px 4.48px 111.92px 0px #00000026;
+      border: 1px solid var(--bg-custom3);
+      background: var(--bg-custom4);
+      border-radius: 55.96px;
+      cursor: pointer;
+    }
+    .btn img {
+      margin-right: 10px;
+    }
+    .btn-message {
+      position: absolute;
+      bottom: 147px;
+      left: 38px;
+      transform: rotate(350deg);
+    }
+    .btn-img {
+      position: absolute;
+      bottom: 105px;
+      right: 20px;
+      transform: rotate(343deg);
+    }
+    .btn-videos {
+      position: absolute;
+      bottom: 22px;
+      left: 54px;
+      transform: rotate(37deg);
+    }
+
+    .effects1 {
+      position: absolute;
+      right: 0;
+      bottom: -192px;
+      filter: blur(100px);
+    }
+    .last-items {
+      z-index: 11;
+    }
+    .form-control {
+      width: 563px;
+      height: 82px;
+      padding: 15px 16px 15px 30px;
+      border-radius: 50px;
+      border: 1px solid var(--bg-custom3);
+      background: var(--bg-custom2);
+      //styleName: Heading 6 /Regular;
+      font-family: "Urbanist", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: #868383;
+    }
+    .form-control::placeholder {
+      font-family: "Urbanist", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: #868383;
+    }
+    .submit-btn {
+      margin-right: 20px;
+      background: linear-gradient(120.12deg, #fde9a3 -3.95%, #eecb4e 101.99%);
+      width: 294.94px;
+      height: 60px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Urbanist", sans-serif;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 30px;
+      text-align: left;
+      cursor: pointer;
+    }
+    .submit-box {
+      position: absolute;
+      right: 0;
+      width: auto;
+      top: 0;
+    }
+    .submit-btn img {
+      margin-left: 10px;
+    }
+    .effect2 {
+      position: absolute;
+      bottom: 0;
+      right: 80px;
+      filter: blur(100px);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-area {
+    .top-bar {
+      h1 {
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29.75px;
+        text-align: center;
+        word-break: break-all;
+        br {
+          display: none;
+        }
+      }
+    }
+    .banner-button {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .explore-btn {
+        margin-left: 0;
+        font-size: 20px;
+        width: 251.94px;
+        height: 60px;
+      }
+      .start-btn {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 20px;
+        width: 251.94px;
+        height: 60px;
+      }
+    }
+    .banner-content {
+      padding: 0;
+    }
+    .shape-1 {
+      top: 100px;
+      width: 600px;
+      height: 600px;
+      position: absolute;
+    }
+    .shape-2 {
+      z-index: 111;
+    }
+    .shape-3 {
+      display: none;
+    }
+    .shape-4 {
+      display: none;
+    }
+  }
+  .course {
+    padding: 0 !important;
+    padding-top: 18px !important;
+  }
+  .memberships {
+    padding: 0 !important;
+    padding-bottom: 48px !important;
+  }
+  .build-list {
+    padding: 0 !important;
+    padding-bottom: 48px !important;
+  }
+  .exclusive {
+    padding: 0 !important;
+    padding-top: 48px !important;
+  }
+  .private-group {
+    padding: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .submit-input {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .networking {
+    height: 380px !important;
+  }
+  .networking-area .courseShape5 {
+    position: absolute;
+    bottom: -130px !important;
+    width: auto;
+  }
+  .networking-area .img-list img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .networking-area .content {
+    h1 {
+      font-size: 35px !important;
+      line-height: 37px !important;
+    }
+    p {
+      line-height: 30px !important;
+      font-size: 16px !important;
+    }
+  }
+  .networking-area .networking {
+    padding: 50px 20px !important;
+    .content {
+      padding: 0 20px !important;
+    }
+  }
+  .networking-area img {
+    width: 100% !important;
+  }
+  .btn-message {
+    img {
+      width: 20px;
+    }
+  }
+  .networking-area .btn {
+    font-size: 17px !important;
+  }
+  .networking-area .btn img {
+    width: 30px !important;
+    height: auto !important;
+  }
+  .networking-area .btn-message {
+    bottom: 128px !important;
+  }
+  .networking-area .btn-img {
+    bottom: 83px !important;
+  }
+}

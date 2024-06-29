@@ -1,3 +1,4 @@
+// src/router/index.js
 import { route } from "quasar/wrappers";
 import {
   createRouter,
@@ -7,15 +8,6 @@ import {
 } from "vue-router";
 import routes from "./routes";
 
-/*
- * If not building with SSR mode, you can
- * directly export the Router instantiation;
- *
- * The function below can be async too; either use
- * async/await or return a Promise which resolves
- * with the Router instance.
- */
-
 export default route(function (/* { store, ssrContext } */) {
   const createHistory = process.env.SERVER
     ? createMemoryHistory
@@ -24,12 +16,23 @@ export default route(function (/* { store, ssrContext } */) {
     : createWebHashHistory;
 
   const Router = createRouter({
-    scrollBehavior: () => ({ left: 0, top: 0 }),
+    // Modified scrollBehavior for smooth scrolling
+    scrollBehavior(to, from, savedPosition) {
+      if (savedPosition) {
+        return savedPosition;
+      } else if (to.hash) {
+        return {
+          el: to.hash,
+          behavior: "smooth",
+        };
+      } else {
+        return { left: 0, top: 0 };
+      }
+    },
     routes,
 
-    // Leave this as is and make changes in quasar.conf.js instead!
-    // quasar.conf.js -> build -> vueRouterMode
-    // quasar.conf.js -> build -> publicPath
+    // Leave this as is and change the mode via quasar.conf.js instead!
+    // Doing so, quasar.conf.js will take care of the proper config for your build tool
     history: createHistory(process.env.VUE_ROUTER_BASE),
   });
 

@@ -1,0 +1,443 @@
+.light-mode {
+  .contact-area {
+    .contact-form {
+      width: 100%;
+      height: 850px;
+      border-radius: 50px;
+      background: #fffdf9;
+      overflow: hidden;
+    }
+    .desktop-pic {
+      position: absolute;
+      z-index: 1;
+      top: 18px;
+      left: -108px;
+    }
+    .mobile-pic {
+      position: absolute;
+      top: 83px;
+      left: 301px;
+      z-index: 1;
+    }
+    .left-side {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding-left: 100px;
+    }
+    .effects {
+      top: 0;
+      position: absolute;
+    }
+    .left-content h1 {
+      font-family: "Urbanist", sans-serif;
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 60px;
+      text-align: left;
+      color: #000000;
+    }
+    .left-content p {
+      font-family: "Inter", sans-serif;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 41.75px;
+      text-align: left;
+      word-break: break-all;
+      color: #595959;
+    }
+    .right-side {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding-left: 100px;
+      padding-right: 100px;
+      z-index: 444;
+    }
+    .right-side h1 {
+      font-family: "Urbanist", sans-serif;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 36px;
+      text-align: left;
+      padding-bottom: 15px;
+      color: #000;
+    }
+    .right-side p {
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.06px;
+      text-align: left;
+      color: #595959;
+    }
+    .right-side input {
+      background: #ffffff;
+      box-shadow: 0px 4px 100px 0px #0000000d;
+      width: 100%;
+      height: 60px;
+      padding: 15px 16px 15px 30px;
+      border-radius: 50px;
+      border: none;
+      font-family: "Urbanist", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.2px;
+      text-align: left;
+      color: var(--text-custom6);
+    }
+    .contact-area .form-control {
+      font-family: "Urbanist", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.2px;
+      text-align: left;
+      color: var(--text-custom6);
+    }
+    .contact-area .form-control::placeholder {
+      font-family: "Urbanist", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.2px;
+      text-align: left;
+      color: var(--text-custom6);
+    }
+    .price-btn2 {
+      margin-right: 20px;
+      background: linear-gradient(120.12deg, #fde9a3 -3.95%, #eecb4e 101.99%);
+      width: 294.94px;
+      height: 60px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Urbanist;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 30px;
+      text-align: left;
+      cursor: pointer;
+    }
+    .price-btn2 img {
+      padding-left: 10px;
+    }
+    .mobile-select-button {
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: transparent;
+      padding: 0 20px;
+      height: 100%;
+      color: #000000;
+      cursor: pointer;
+    }
+    #phone {
+      padding-left: 106px;
+    }
+    textarea {
+      height: 241px;
+      box-shadow: 0px 4px 100px 0px #0000000d;
+      background: #ffffff;
+      width: 100%;
+      border: none;
+      padding: 20px;
+      border-radius: 20px;
+    }
+    .contactEffect {
+      position: absolute;
+      bottom: -250px;
+      right: 0;
+      filter: blur(100px);
+    }
+    .flag {
+      width: 28px;
+    }
+    .dropDown-btn {
+      cursor: pointer;
+      padding: 7px 20px;
+      font-family: "Urbanist", sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 19.2px;
+      text-align: left;
+      background-color: #fff;
+      color: var(--text-custom6);
+      img {
+        width: 28px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .dropDown-flag {
+    padding: 10px;
+    border-radius: 20px;
+    width: 265px;
+    position: absolute;
+    height: 250px;
+    overflow-y: auto;
+    button {
+      width: 100%;
+    }
+  }
+}
+
+.dark-mode {
+  .contact-area {
+    .flag {
+      width: 28px;
+    }
+
+    .price-btn2 {
+      margin-right: 20px;
+      background: linear-gradient(120.12deg, #fde9a3 -3.95%, #eecb4e 101.99%);
+      width: 294.94px;
+      height: 60px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Urbanist;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 30px;
+      text-align: left;
+      cursor: pointer;
+    }
+    .price-btn2 img {
+      padding-left: 10px;
+    }
+    .dropDown-btn {
+      cursor: pointer;
+      padding: 7px 20px;
+      font-family: "Urbanist", sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 19.2px;
+      text-align: left;
+      background-color: #fff;
+      color: var(--text-custom6);
+      img {
+        width: 28px;
+        margin-right: 5px;
+      }
+    }
+  }
+  .dropDown-flag {
+    padding: 10px;
+    border-radius: 20px;
+    width: 265px;
+    position: absolute;
+    height: 250px;
+    overflow-y: auto;
+    button {
+      width: 100%;
+    }
+  }
+  .contact-form {
+    width: 100%;
+    height: 850px;
+    border-radius: 50px;
+    background: #1e1c1c;
+    overflow: hidden;
+  }
+  .desktop-pic {
+    position: absolute;
+    z-index: 1;
+    top: 18px;
+    left: -108px;
+  }
+  .mobile-pic {
+    position: absolute;
+    top: 83px;
+    left: 301px;
+    z-index: 1;
+  }
+  .left-side {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+  }
+  .effects {
+    top: 0;
+    position: absolute;
+  }
+  .left-content h1 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .left-content p {
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 41.75px;
+    text-align: left;
+    word-break: break-all;
+    color: #eae8e8;
+  }
+  .right-side {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    z-index: 444;
+  }
+  .right-side h1 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    padding-bottom: 15px;
+    color: var(--white-color);
+  }
+  .right-side p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.06px;
+    text-align: left;
+    color: var(--text-custom5);
+  }
+  .right-side input {
+    background: var(--bg-custom7);
+    box-shadow: 0px 4px 100px 0px #0000000d;
+    width: 100%;
+    height: 60px;
+    padding: 15px 16px 15px 30px;
+    border-radius: 50px;
+    border: none;
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+    color: var(--text-custom6);
+  }
+  .contact-area .form-control {
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+    color: var(--text-custom6);
+  }
+  .contact-area .form-control::placeholder {
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+    color: var(--text-custom6);
+  }
+  .mobile-select-button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: transparent;
+    padding: 0 20px;
+    height: 100%;
+    color: var(--white-color);
+    cursor: pointer;
+  }
+  #phone {
+    padding-left: 106px;
+  }
+  textarea {
+    height: 241px;
+    box-shadow: 0px 4px 100px 0px #0000000d;
+    background: var(--bg-custom7);
+    width: 100%;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .contactEffect {
+    position: absolute;
+    bottom: -250px;
+    right: 0;
+    filter: blur(100px);
+  }
+}
+
+.contact-pic {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .desktop-pic {
+    display: none;
+  }
+  .mobile-pic {
+    display: none;
+  }
+  .contact-pic {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .contact-area .left-side {
+    padding: 40px !important;
+    height: auto !important;
+    justify-content: flex-start !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form {
+    height: 100% !important;
+  }
+  .contact-row {
+    height: auto !important;
+  }
+  .bottom-button {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contact-area {
+    .left-content {
+      h1 {
+        font-size: 35px !important;
+        line-height: 37px !important;
+        text-align: center !important;
+        padding-bottom: 10px;
+      }
+      p {
+        line-height: 30px !important;
+        font-size: 16px !important;
+        text-align: center !important;
+      }
+    }
+    .right-side {
+      h1 {
+        font-size: 35px !important;
+        line-height: 37px !important;
+        text-align: center !important;
+        padding-bottom: 10px;
+      }
+      p {
+        line-height: 30px !important;
+        font-size: 16px !important;
+        text-align: center !important;
+      }
+      padding: 20px !important;
+    }
+    .price-btn2 {
+      margin-right: 20px;
+      background: linear-gradient(120.12deg, #fde9a3 -3.95%, #eecb4e 101.99%);
+      width: 100% !important;
+      height: 55px !important;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Urbanist", sans-serif;
+      font-size: 20px !important;
+      font-weight: 700;
+      line-height: 30px;
+      text-align: center !important;
+      cursor: pointer;
+    }
+  }
+}
